@@ -46,14 +46,13 @@ nav {
 
 li {
     display: inline;
-    margin: auto 20px;
+    margin: auto 25px;
 }
 
 /*FINE CSS HEADER */
 
 .blocco-centrale {
     margin-top: 10px;
-    background-color:grey;
     height: 600px;
 }
 
@@ -61,21 +60,36 @@ li {
     float: left;
     width: 20%;
     height: 100%;
-    background-color: green;
 }
 
 main {
     width: 60%;
     height:100%;
     float:left;
-    padding: 0 20px;
+    padding: 0 30px;
+    text-align: center;
 }
 
 .contenuto {
-    height:100%;
-    background-color: red;
+    padding: 15px 20px;
+    border-radius: 2%;
+    background-color: white;
 }
 
+ p {
+    text-align: justify;
+    line-height: 1.0;
+}
+
+h3 {
+    text-align: center;
+}
+.elemento {
+    background-color: white;
+    border-radius: 2%;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+}
 /* FINE CSS ASIDE-MAIN */
 
 footer {
