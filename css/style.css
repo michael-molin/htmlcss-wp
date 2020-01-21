@@ -11,7 +11,7 @@
 }
 
 body {
-        background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsf.co.ua%2F13%2F07%2Fwallpaper-2940906.jpg&f=1&nofb=1");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsf.co.ua%2F13%2F07%2Fwallpaper-2940906.jpg&f=1&nofb=1");
 }
 
 .container {
@@ -40,13 +40,11 @@ header {
 
 .centro {
     color:white;
-    margin:auto;
     position:absolute;
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-
 }
 
 
@@ -113,8 +111,16 @@ footer {
     background-color: white;
     border-radius: 2%;
     text-align: center;
+
 }
 
-#p-foot {
-    text-align: center;
+.footer-icone{
+    height: 90%;
+    line-height: 90px;
+}
+
+.icona {
+    display:inline;
+    float:left;
+    width: 33%;
 }
