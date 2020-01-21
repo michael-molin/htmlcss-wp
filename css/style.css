@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+body {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsf.co.ua%2F13%2F07%2Fwallpaper-2940906.jpg&f=1&nofb=1");
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+header {
+    height: 300px;
+    margin-top: 10px;
+}
+
+.titolo {
+    height: 250px;
+}
+
+.img-titolo {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border: 8px solid white;
+}
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #453d41;
+    border: black;
+    color:white;
+}
+
+li {
+    display: inline;
+    margin: auto 20px;
+}
+
+/*FINE CSS HEADER */
+
+.blocco-centrale {
+    margin-top: 10px;
+    background-color:grey;
+    height: 600px;
+}
+
+.laterale {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
+
+main {
+    width: 60%;
+    height:100%;
+    float:left;
+    padding: 0 20px;
+}
+
+.contenuto {
+    height:100%;
+    background-color: red;
+}
+
+/* FINE CSS ASIDE-MAIN */
+
+footer {
+    margin-top:20px;
+    height: 100px;
+    background-color: yellow;
+}
