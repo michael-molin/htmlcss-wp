@@ -26,6 +26,9 @@ header {
 
 .titolo {
     height: 250px;
+    position:relative;
+    font-size: 50px;
+    text-align: center;
 }
 
 .img-titolo {
@@ -34,6 +37,18 @@ header {
     width: 100%;
     border: 8px solid white;
 }
+
+.centro {
+    color:white;
+    margin:auto;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
 
 nav {
     height: 50px;
@@ -95,5 +110,11 @@ h3 {
 footer {
     margin-top:20px;
     height: 100px;
-    background-color: yellow;
+    background-color: white;
+    border-radius: 2%;
+    text-align: center;
+}
+
+#p-foot {
+    text-align: center;
 }
